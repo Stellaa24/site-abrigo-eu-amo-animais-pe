@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/adote.css" />
+    <title>Adote</title>
+  </head>
+  <body>
+    <nav id="topo">
+      <img src="Imagens/logo.png" alt="logo" width="140px" height="80px" />
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html">Nossa História</a>
+        </li>
+        <li>
+          <a href="adote.html">Adote</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="#">Como nos ajudar </a>
+            <div class="dropdown-child">
+              <a href="voluntario.html">Seja Voluntário</a><br />
+              <a href="apadrinhe.html">Apadrinhe um Pet</a><br />
+              <a href="doe.html">Faça sua Doação</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="denuncie.html">Denuncie</a>
+        </li>
+        <li>
+          <a href="#fale">Fale conosco</a>
+        </li>
+      </ul>
+    </nav>
+    <pre>
+
+
+    </pre>
+    <h3>Como Adotar?</h3>
+    <p style="text-align: justify">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para
+      adotar um animalzinho, cão ou gato, é preciso ser maior de 18 anos. Se
+      você é maior de idade e tem interesse em levar um (ou vários :D) pets para
+      a sua casa, favor trazer os seguintes documentos:
+    </p>
+
+    <p style="text-align: justify">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      1. CPF
+    </p>
+    <p style="text-align: justify">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      2. Documento oficial com foto (Ex.: RG, CNH etc.)
+    </p>
+    <p style="text-align: justify">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      3. Comprovante de Residência
+    </p>
+
+    <p style="text-align: justify">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <strong
+        ><i
+          >INFORMAÇÃO IMPORTANTE: as adoções devem ser realizadas com
+          responsabilidade afetiva!!
+        </i></strong
+      >
+      Então, se deseja levar um pet para casa, tenha em mente os deveres e
+      cuidados que deverão ser praticados para o bem do bichinho!No ato da
+      adoção, você vai assinar um <i>termo afetivo</i>, explicando todas as
+      regras e informações do animal. Para maiores informações, favor navegar ao
+      item <strong>Fale Conosco</strong> para agendar uma visita!
+    </p>
+    <!--adicionar link do fale conosco-->
+
+    <table style="text-align: center">
+      <div>
+        <tr style="font-size: 35px">
+          <th>Estrela</th>
+          <th>Davi</th>
+          <th>Amora</th>
+          <th>Pequena</th>
+        </tr>
+        <tr>
+          <td>
+            <img
+              class="pet"
+              src="Imagens/animais/Estrela.jpeg"
+              width="250px"
+              height="250px"
+            />
+          </td>
+          <td>
+            <img
+              class="pet"
+              src="Imagens/animais/Davi.jpeg"
+              width="250px"
+              height="250px"
+            />
+          </td>
+          <td>
+            <img
+              class="pet"
+              src="Imagens/animais/Amora.JPG"
+              width="250px"
+              height="250px"
+            />
+          </td>
+          <td>
+            <img
+              class="pet"
+              src="Imagens/animais/Pequena.JPG"
+              width="250px"
+              height="250px"
+            />
+          </td>
+        </tr>
+        
+      </div>
+    </table>
+    <hr />
+    <footer id="fundo">
+      <h2>
+        <p style="text-align: center" id="fale">FALE CONOSCO</p>
+      </h2>
+      <p>
+        Gostaríamos muito de ouvir de você! <br />
+        Mande-nos sua mensagem e tiraremos todas as suas dúvidas. Você pode
+        entrar em contato conosco também através do perfil do Instagram:
+      </p>
+      <a
+        href="https://www.instagram.com/euamoanimaispe/"
+        target="_blank"
+        rel="External"
+      >
+        <img
+          src="Imagens/instagram.png"
+          alt="instagram"
+          width="50px"
+          height="50x"
+        />
+      </a>
+      <form
+        name="signup"
+        method="post"
+        onsubmit="alert('Formulário enviado com sucesso! Em breve entraremos em contato. Obrigado!')"
+        ;
+      >
+        <label size="200px">Nome Completo*: </label
+        ><input
+          size="50px"
+          type="text"
+          name="name"
+          placeholder="Digite seu nome"
+          required
+        /><br />
+        <label> E-mail*:&nbsp </label
+        ><input
+          size="60px"
+          type="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+          required
+        /><br />
+        <label size="200px">Telefone </label
+        ><input
+          size="60px"
+          type="tel"
+          name="tel"
+          placeholder="Digite seu telefone"
+          required
+        /><br />
+        Motivo:
+        <select name="motivo" id="motivo">
+          <option value="--">--SELECIONAR--</option>
+          <option value="duvidas">DÚVIDAS</option>
+          <option value="visita">VISITA AO ABRIGO</option>
+          <option value="doacao">DOAÇÃO</option>
+          <option value="parcerias">PARCERIAS</option>
+          <option value="adocao">ADOÇÃO</option>
+        </select>
+        <br />
+        <br />
+        Mensagem:
+        <textarea
+          name="mensagem"
+          size="150px"
+          rows="10"
+          cols="56"
+          style="resize: none"
+        >
+        </textarea>
+        <br />
+        <button type="submit" value="enviar" value="Exibir Alert">
+          Enviar mensagem
+        </button>
+      </form>
+    </footer>
+    <p style="text-align: center; color: black">
+      Copyright © 2022 – Abrigo Eu amo os animais. Todos os direitos reservado.
+    </p>
+  </body>
+</html>

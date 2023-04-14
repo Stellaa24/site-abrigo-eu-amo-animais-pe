@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/apadrinhe.css" />
+    <title>Apadrinhe</title>
+  </head>
+  <body>
+    <nav id="topo">
+      <img src="Imagens/logo.png" alt="logo" width="140px" height="80px" />
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html">Nossa História</a>
+        </li>
+        <li>
+          <a href="adote.html">Adote</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="#">Como nos ajudar </a>
+            <div class="dropdown-child">
+              <a href="voluntario.html">Seja Voluntário</a><br />
+              <a href="apadrinhe.html">Apadrinhe um Pet</a><br />
+              <a href="doe.html">Faça sua Doação</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="denuncie.html">Denuncie</a>
+        </li>
+        <li>
+          <a href="#fale">Fale conosco</a>
+        </li>
+      </ul>
+    </nav>
+    <pre>
+
+      
+    </pre>
+    <div>
+      <h1>Apadrinhe um pet!</h1>
+      <p style="text-align: justify">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Ah! Se encantou por algum bichinho específico, mas não tem condições de
+        adotá-lo? Que tal <strong><u>apadrinhar?</u></strong> .Você pode
+        fornecer mensalmente ração, medicamentos, valores monetários ou o que
+        for necessário para o pet, e mantê-lo saudável no abrigo! Clique aqui
+        para acessar nosso álbum pets e, posteriormente, entre em contato
+        através do <i>Fale Conosco!</i>
+      </p>
+      <!--adicionar link do álbum e do Fale Conosco-->
+    </div>
+
+    <hr />
+    <footer>
+      <h2>
+        <p style="text-align: center" id="fale">FALE CONOSCO</p>
+      </h2>
+      <p>
+        Gostaríamos muito de ouvir de você! <br />
+        Mande-nos sua mensagem e tiraremos todas as suas dúvidas. Você pode
+        entrar em contato conosco também através do perfil do Instagram:
+      </p>
+      <a
+        href="https://www.instagram.com/euamoanimaispe/"
+        target="_blank"
+        rel="External"
+      >
+        <img
+          src="Imagens/instagram.png"
+          alt="instagram"
+          width="50px"
+          height="50x"
+        />
+      </a>
+      <form
+        name="signup"
+        method="post"
+        onsubmit="alert('Formulário enviado com sucesso! Em breve entraremos em contato. Obrigado!')"
+        ;
+      >
+        <label size="200px">Nome Completo*: </label
+        ><input
+          size="50px"
+          type="text"
+          name="name"
+          placeholder="Digite seu nome"
+          required
+        /><br />
+        <label> E-mail*:&nbsp </label
+        ><input
+          size="60px"
+          type="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+          required
+        /><br />
+        <label size="200px">Telefone </label
+        ><input
+          size="60px"
+          type="tel"
+          name="tel"
+          placeholder="Digite seu telefone"
+          required
+        /><br />
+        Motivo:
+        <select name="motivo" id="motivo">
+          <option value="--">--SELECIONAR--</option>
+          <option value="duvidas">DÚVIDAS</option>
+          <option value="visita">VISITA AO ABRIGO</option>
+          <option value="doacao">DOAÇÃO</option>
+          <option value="parcerias">PARCERIAS</option>
+          <option value="adocao">ADOÇÃO</option>
+        </select>
+        <br />
+        <br />
+        Mensagem:
+        <textarea
+          name="mensagem"
+          size="150px"
+          rows="10"
+          cols="56"
+          style="resize: none"
+        >
+        </textarea>
+        <br />
+        <button
+          type="submit"
+          value="enviar"
+          value="Exibir Alert"
+        >
+          Enviar mensagem
+        </button>
+      </form>
+    </footer>
+    <p style="text-align: center">
+      Copyright © 2022 – Abrigo Eu amo os animais. Todos os direitos reservado.
+    </p>
+  </body>
+</html>
