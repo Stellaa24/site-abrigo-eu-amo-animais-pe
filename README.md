@@ -1,0 +1,3 @@
+# site-abrigo-eu-amo-animais-pe
+Repositório referente ao desenvolvimento de site para um abrigo localizado em Recife/PE, chamado "Eu Amo Animais PE"
+Tendo como principal objetivo ajudar um gerente de abrigo de animais a conseguir mais doações e voluntários, realizamos este site, onde utilizamos HTML e CSS. No site, apresentamos o perfil de alguns dos animais acolhidos no abrigo, bem como opções de doação e como se candidatar para ser um voluntário. Após dois meses da entrega deste trabalho, observamos um crescimento significativo na visibilidade social do abrigo e, por consequência, em uma maior arrecadação do mesmo de insumos necessários para suprir as necessidades dos Pets. 
